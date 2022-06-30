@@ -1,0 +1,87 @@
+*,::after,::before{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: inherit;
+  background: #23252C;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+ max-width: min-content;
+ margin: 5rem 0;
+ background: #1A1B21;
+ color: white;
+ border-radius:0 15px 15px;
+ overflow: hidden;
+}
+h1,h2,h3,h4{
+  margin: 0;
+}
+.profile h1{
+  margin-bottom: 0;
+}
+.profile h4{
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-top: 0;
+  color: #F3BF99;
+  margin: 0;
+}
+.profile p{
+  margin-top:10px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.89);
+}
+.profile-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.profile-buttons button{
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  font-size: 0.85rem;
+}
+.linkedin{
+  background-color:
+  #5093E2 ;
+  color: white;
+}
+.maincontent{
+  text-align: left;
+  margin-top: 2rem;
+  padding: 0 2.5rem;
+  text-align: justify;
+}
+.maincontent div{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.715);
+}
+.maincontent h4{
+  margin: 10px 0;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  background-color:black;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+}
